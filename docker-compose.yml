@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   backend:
-    image: tuchphon/234project-backend
+    image: tuchphon/234project-backend:latest
     ports:
       - "7071:8080"
   frontend:
