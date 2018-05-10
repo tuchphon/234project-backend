@@ -8,4 +8,8 @@ services:
     image: dto80/234project-forntend:latest
     ports:
       - "7072:80"
+    volumes:
+      - type: bind
+        source: ./Prokect234
+        target: /usr/share/nginx/html/assets
 
