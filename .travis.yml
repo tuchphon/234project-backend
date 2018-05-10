@@ -6,14 +6,13 @@ before_install:
 - chmod +x docker-compose
 - sudo mv docker-compose /usr/local/bin
 - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+- chmod +x mvnw
 install:
 - mvn install -Dmaven.javadoc.skip=true -B -V
 - ls -l
 - docker build --build-arg JAR_FILE=/target/backend.jar -t tuchphon/234project-backend  .
 - docker push tuchphon/234project-backend
 - docker pull dto80/234project-forntend
-script:
-- docker-compose -H "$DOCKER_HOST" up -d
 cache:
   directories:
   - "$HOME/.m2"
