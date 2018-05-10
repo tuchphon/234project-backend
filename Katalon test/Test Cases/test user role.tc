@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>contains products and carts</description>
-   <name>test user role</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c54863b0-412c-4953-8abc-47467f3a3c92</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>contain product and total transaction page</description>
-   <name>test login admin role</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5afe031e-f036-4d68-a5fe-3090c2a2014b</testCaseGuid>
-</TestCaseEntity>

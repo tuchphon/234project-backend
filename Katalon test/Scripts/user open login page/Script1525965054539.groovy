@@ -24,11 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071/')
 
-WebUI.setText(findTestObject('password field is empty/Page_ProjectBackend/input_username'), 'user')
-
-WebUI.click(findTestObject('password field is empty/Page_ProjectBackend/button_Login'))
-
-WebUI.verifyElementText(findTestObject('password field is empty/Page_ProjectBackend/label_Password is required'), 'Password is required')
+WebUI.verifyElementText(findTestObject('login page test/Page_ProjectBackend/h2_Login'), 'Login')
 
 WebUI.closeBrowser()
 

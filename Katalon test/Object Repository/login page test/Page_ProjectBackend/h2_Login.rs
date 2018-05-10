@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Password is required</name>
+   <name>h2_Login</name>
    <tag></tag>
-   <elementGuidId>4a4d74e0-4845-4d38-a760-0ed6e19e4204</elementGuidId>
+   <elementGuidId>c01dc9f7-59ca-4bc9-8f5d-c59ec324808d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>text-danger</value>
+      <value>h2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Password is required</value>
+      <value>Login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;form-group text-danger&quot;]/label[@class=&quot;text-danger&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/h2[1]</value>
    </webElementProperties>
 </WebElementEntity>
