@@ -5,7 +5,7 @@ services:
     ports:
       - "7071:8080"
   frontend:
-    image: dto80/234project-forntend:latest
+    image: dto80/234project-frontend:latest
     ports:
       - "7072:80"
     volumes:
