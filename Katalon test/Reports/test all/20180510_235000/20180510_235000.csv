@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test all,Firefox 58.0,,2018-05-10 23:50:03,2018-05-10 23:51:12,1m - 9.693s,FAILED
+,,,,,,
+Test Cases/test username and password incorrectness,Firefox 58.0,,2018-05-10 23:50:03,2018-05-10 23:50:24,20.580s,PASSED
+openBrowser,Firefox 58.0,,2018-05-10 23:50:04,2018-05-10 23:50:13,8.799s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-10 23:50:13,2018-05-10 23:50:21,8.002s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:50:21,2018-05-10 23:50:21,0.252s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:50:21,2018-05-10 23:50:22,0.976s,PASSED
+click,Firefox 58.0,,2018-05-10 23:50:22,2018-05-10 23:50:22,0.358s,PASSED
+verifyElementText,Firefox 58.0,,2018-05-10 23:50:22,2018-05-10 23:50:23,1.069s,PASSED
+closeBrowser,Firefox 58.0,,2018-05-10 23:50:23,2018-05-10 23:50:24,0.516s,PASSED
+,,,,,,
+Test Cases/test admin role login,Firefox 58.0,,2018-05-10 23:50:24,2018-05-10 23:51:12,48.148s,FAILED
+openBrowser,Firefox 58.0,,2018-05-10 23:50:24,2018-05-10 23:50:32,7.308s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-10 23:50:32,2018-05-10 23:50:39,7.130s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:50:39,2018-05-10 23:50:39,0.094s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:50:39,2018-05-10 23:50:39,0.059s,PASSED
+click,Firefox 58.0,,2018-05-10 23:50:39,2018-05-10 23:50:41,2.610s,PASSED
+verifyElementText,Firefox 58.0,,2018-05-10 23:50:41,2018-05-10 23:51:12,30.597s,FAILED

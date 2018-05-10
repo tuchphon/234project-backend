@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071/')
 
-WebUI.setText(findTestObject('user and password incorrect/Page_ProjectBackend/input_username'), 'users')
+WebUI.setText(findTestObject('user and password incorrect/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('user and password incorrect/Page_ProjectBackend/input_password'), 'users')
+WebUI.setText(findTestObject('user and password incorrect/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('user and password incorrect/Page_ProjectBackend/button_Login'))
 

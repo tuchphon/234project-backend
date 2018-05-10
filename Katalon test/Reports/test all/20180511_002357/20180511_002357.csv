@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test all,Firefox 58.0,,2018-05-11 00:24:00,2018-05-11 00:25:47,1m - 46.866s,FAILED
+,,,,,,
+Test Cases/test add product and carts display,Firefox 58.0,,2018-05-11 00:24:00,2018-05-11 00:24:59,58.428s,FAILED
+openBrowser,Firefox 58.0,,2018-05-11 00:24:01,2018-05-11 00:24:19,18.502s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-11 00:24:19,2018-05-11 00:24:27,7.658s,PASSED
+setText,Firefox 58.0,,2018-05-11 00:24:27,2018-05-11 00:24:27,0.142s,PASSED
+setText,Firefox 58.0,,2018-05-11 00:24:27,2018-05-11 00:24:27,0.097s,PASSED
+click,Firefox 58.0,,2018-05-11 00:24:27,2018-05-11 00:24:28,0.936s,PASSED
+click,Firefox 58.0,,2018-05-11 00:24:28,2018-05-11 00:24:59,30.449s,FAILED
+,,,,,,
+Test Cases/test add product and carts display,Firefox 58.0,,2018-05-11 00:24:59,2018-05-11 00:25:46,47.433s,FAILED
+openBrowser,Firefox 58.0,,2018-05-11 00:24:59,2018-05-11 00:25:07,7.789s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-11 00:25:07,2018-05-11 00:25:13,5.859s,PASSED
+setText,Firefox 58.0,,2018-05-11 00:25:13,2018-05-11 00:25:13,0.054s,PASSED
+setText,Firefox 58.0,,2018-05-11 00:25:13,2018-05-11 00:25:13,0.044s,PASSED
+click,Firefox 58.0,,2018-05-11 00:25:13,2018-05-11 00:25:15,2.845s,PASSED
+click,Firefox 58.0,,2018-05-11 00:25:15,2018-05-11 00:25:46,30.739s,FAILED

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test all" time="48" tests="0" failures="1" errors="0">
+   <testsuite name="test all" tests="0" failures="1" errors="0" time="48" timestamp="2018-05-11 00:19:00" hostname="Runyo - 10.80.58.48" id="Test Suites/test all">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180511_001858"/>
+         <property name="logFiles" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180511_001858\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180511_001858\\1525972788615.png"/>
+         <property name="hostName" value="Runyo - 10.80.58.48"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.80.58.48"/>
+         <property name="sessionId" value="662da344-7fed-41c8-8ae4-3e0f936b3499"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test add product and carts display" classname="Test Cases/test add product and carts display" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)"/>
+         <system-out><![CDATA[2018-05-11 00:19:01 - [TEST_CASE][FAILED] - Test Cases/test add product and carts display: Test Cases/test add product and carts display FAILED because (of) Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+
+2018-05-11 00:19:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-11 00:19:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-11 00:19:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-11 00:19:16 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-11 00:19:16 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/add product and carts display/Page_ProjectBackend/input_username'
+
+2018-05-11 00:19:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/add product and carts display/Page_ProjectBackend/input_username'
+
+2018-05-11 00:19:16 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/add product and carts display/Page_ProjectBackend/input_password'
+
+2018-05-11 00:19:16 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/add product and carts display/Page_ProjectBackend/input_password'
+
+2018-05-11 00:19:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add product and carts display/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-11 00:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/add product and carts display/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-11 00:19:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+
+2018-05-11 00:19:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)
+[[ATTACHMENT|C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180511_001858\\1525972788615.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 00:19:01 - [TEST_CASE][FAILED] - Test Cases/test add product and carts display: Test Cases/test add product and carts display FAILED because (of) Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-11 00:19:00 - [TEST_SUITE][FAILED] - test all: Test Cases/test add product and carts display FAILED because (of) Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-11 00:19:00 - [TEST_SUITE][FAILED] - test all: Test Cases/test add product and carts display FAILED because (of) Unable to click on object 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/add product and carts display/Page_ProjectBackend/button_add to cart' located by 'By.xpath: /html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button' not found)]]></system-err>
+   </testsuite>
+</testsuites>

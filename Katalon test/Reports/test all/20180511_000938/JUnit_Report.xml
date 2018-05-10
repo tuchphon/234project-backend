@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test all" time="18" tests="1" failures="0" errors="0">
+   <testsuite name="test all" tests="1" failures="0" errors="0" time="18" timestamp="2018-05-11 00:09:41" hostname="Runyo - 10.80.58.48" id="Test Suites/test all">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180511_000938"/>
+         <property name="logFiles" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180511_000938\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Runyo - 10.80.58.48"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.58.48"/>
+         <property name="sessionId" value="83b671d6123ea9b5044e9796463d45ec"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test admin role login" classname="Test Cases/test admin role login" status="PASSED">
+         <system-out><![CDATA[2018-05-11 00:09:41 - [TEST_CASE][PASSED] - Test Cases/test admin role login: Test Cases/test admin role login
+
+2018-05-11 00:09:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-11 00:09:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-11 00:09:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-11 00:09:52 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-11 00:09:52 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_username'
+
+2018-05-11 00:09:52 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_username'
+
+2018-05-11 00:09:52 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_password'
+
+2018-05-11 00:09:52 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_password'
+
+2018-05-11 00:09:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/admin product and transaction page/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-11 00:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/admin product and transaction page/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-11 00:09:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-11 00:09:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-11 00:09:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-11 00:09:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-11 00:09:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-11 00:09:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-11 00:09:41 - [TEST_SUITE][PASSED] - test all: Test Cases/test admin role login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

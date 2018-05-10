@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071/')
 
-WebUI.setText(findTestObject('admin product and transaction page/Page_ProjectBackend/input_username'), 'admin')
+WebUI.setText(findTestObject('admin product and transaction page/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('admin product and transaction page/Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('admin product and transaction page/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('admin product and transaction page/Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementText(findTestObject('admin product and transaction page/Page_ProjectBackend/a_Products'), 'Product')
+WebUI.verifyElementText(findTestObject('admin product and transaction page/Page_ProjectBackend/a_Products'), 'Products')
 
 WebUI.verifyElementText(findTestObject('admin product and transaction page/Page_ProjectBackend/a_Total Transaction'), 'Total Transaction')
 

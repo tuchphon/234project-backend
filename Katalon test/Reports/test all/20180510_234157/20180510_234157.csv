@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test all,Firefox 58.0,,2018-05-10 23:42:02,2018-05-10 23:42:37,34.520s,PASSED
+,,,,,,
+Test Cases/test username and password incorrectness,Firefox 58.0,,2018-05-10 23:42:03,2018-05-10 23:42:37,33.869s,PASSED
+openBrowser,Firefox 58.0,,2018-05-10 23:42:03,2018-05-10 23:42:27,23.410s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-10 23:42:27,2018-05-10 23:42:34,6.820s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:42:34,2018-05-10 23:42:34,0.247s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:42:34,2018-05-10 23:42:34,0.073s,PASSED
+click,Firefox 58.0,,2018-05-10 23:42:34,2018-05-10 23:42:35,1.188s,PASSED
+verifyElementText,Firefox 58.0,,2018-05-10 23:42:35,2018-05-10 23:42:36,1.049s,PASSED
+closeBrowser,Firefox 58.0,,2018-05-10 23:42:36,2018-05-10 23:42:37,0.333s,PASSED

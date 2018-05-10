@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test all,Firefox 58.0,,2018-05-11 00:19:00,2018-05-11 00:19:49,48.208s,FAILED
+,,,,,,
+Test Cases/test add product and carts display,Firefox 58.0,,2018-05-11 00:19:01,2018-05-11 00:19:48,47.365s,FAILED
+openBrowser,Firefox 58.0,,2018-05-11 00:19:02,2018-05-11 00:19:09,7.184s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-11 00:19:09,2018-05-11 00:19:16,7.285s,PASSED
+setText,Firefox 58.0,,2018-05-11 00:19:16,2018-05-11 00:19:16,0.110s,PASSED
+setText,Firefox 58.0,,2018-05-11 00:19:16,2018-05-11 00:19:16,0.101s,PASSED
+click,Firefox 58.0,,2018-05-11 00:19:16,2018-05-11 00:19:18,1.466s,PASSED
+click,Firefox 58.0,,2018-05-11 00:19:18,2018-05-11 00:19:48,30.555s,FAILED

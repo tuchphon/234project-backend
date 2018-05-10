@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.215.216.185:7071/')
 
-WebUI.setText(findTestObject('add product and carts display/Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('add product and carts display/Page_ProjectBackend/input_username'), usename)
 
-WebUI.setText(findTestObject('add product and carts display/Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('add product and carts display/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('add product and carts display/Page_ProjectBackend/button_Login'))
 

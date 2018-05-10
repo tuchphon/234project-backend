@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test all,Firefox 58.0,,2018-05-10 23:53:17,2018-05-10 23:54:09,51.636s,FAILED
+,,,,,,
+Test Cases/test admin role login,Firefox 58.0,,2018-05-10 23:53:18,2018-05-10 23:54:08,50.702s,FAILED
+openBrowser,Firefox 58.0,,2018-05-10 23:53:18,2018-05-10 23:53:26,8.161s,PASSED
+navigateToUrl,Firefox 58.0,,2018-05-10 23:53:26,2018-05-10 23:53:35,8.103s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:53:35,2018-05-10 23:53:35,0.247s,PASSED
+setText,Firefox 58.0,,2018-05-10 23:53:35,2018-05-10 23:53:35,0.076s,PASSED
+click,Firefox 58.0,,2018-05-10 23:53:35,2018-05-10 23:53:38,2.878s,PASSED
+click,Firefox 58.0,,2018-05-10 23:53:38,2018-05-10 23:54:08,30.529s,FAILED

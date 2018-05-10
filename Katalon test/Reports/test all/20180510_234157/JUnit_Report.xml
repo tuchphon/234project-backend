@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test all" time="34" tests="1" failures="0" errors="0">
+   <testsuite name="test all" tests="1" failures="0" errors="0" time="34" timestamp="2018-05-10 23:42:02" hostname="Runyo - 10.80.58.48" id="Test Suites/test all">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180510_234157"/>
+         <property name="logFiles" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180510_234157\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Runyo - 10.80.58.48"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.80.58.48"/>
+         <property name="sessionId" value="9ecb050d-5036-45c7-9768-bba344f0521d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test username and password incorrectness" classname="Test Cases/test username and password incorrectness" status="PASSED">
+         <system-out><![CDATA[2018-05-10 23:42:03 - [TEST_CASE][PASSED] - Test Cases/test username and password incorrectness: Test Cases/test username and password incorrectness
+
+2018-05-10 23:42:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 23:42:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 23:42:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-10 23:42:34 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-10 23:42:34 - [TEST_STEP][PASSED] - setText: Text 'users' is set on object 'Object Repository/user and password incorrect/Page_ProjectBackend/input_username'
+
+2018-05-10 23:42:34 - [MESSAGE][PASSED] - Text 'users' is set on object 'Object Repository/user and password incorrect/Page_ProjectBackend/input_username'
+
+2018-05-10 23:42:34 - [TEST_STEP][PASSED] - setText: Text 'users' is set on object 'Object Repository/user and password incorrect/Page_ProjectBackend/input_password'
+
+2018-05-10 23:42:34 - [MESSAGE][PASSED] - Text 'users' is set on object 'Object Repository/user and password incorrect/Page_ProjectBackend/input_password'
+
+2018-05-10 23:42:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user and password incorrect/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 23:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/user and password incorrect/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 23:42:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/user and password incorrect/Page_ProjectBackend/label_Usernamepassword is inco' are matched.
+
+2018-05-10 23:42:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/user and password incorrect/Page_ProjectBackend/label_Usernamepassword is inco' are matched.
+
+2018-05-10 23:42:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 23:42:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 23:42:02 - [TEST_SUITE][PASSED] - test all: Test Cases/test username and password incorrectness]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

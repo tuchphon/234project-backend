@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test all" time="51" tests="0" failures="1" errors="0">
+   <testsuite name="test all" tests="0" failures="1" errors="0" time="51" timestamp="2018-05-10 23:53:17" hostname="Runyo - 10.80.58.48" id="Test Suites/test all">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180510_235313"/>
+         <property name="logFiles" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180510_235313\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180510_235313\\1525971248636.png"/>
+         <property name="hostName" value="Runyo - 10.80.58.48"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.80.58.48"/>
+         <property name="sessionId" value="cede2e27-239b-4cd4-bf87-108a9f544cd2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test admin role login" classname="Test Cases/test admin role login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)"/>
+         <system-out><![CDATA[2018-05-10 23:53:18 - [TEST_CASE][FAILED] - Test Cases/test admin role login: Test Cases/test admin role login FAILED because (of) Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)
+
+2018-05-10 23:53:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 23:53:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 23:53:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-10 23:53:35 - [MESSAGE][PASSED] - Navigate to 'http://34.215.216.185:7071/' successfully
+
+2018-05-10 23:53:35 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_username'
+
+2018-05-10 23:53:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_username'
+
+2018-05-10 23:53:35 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_password'
+
+2018-05-10 23:53:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/input_password'
+
+2018-05-10 23:53:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/admin product and transaction page/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 23:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/admin product and transaction page/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 23:53:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)
+
+2018-05-10 23:54:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)
+[[ATTACHMENT|C:\\Users\\Runyo\\Desktop\\ADVANCE\\project new\\234project-backend\\Katalon test\\Reports\\test all\\20180510_235313\\1525971248636.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 23:53:18 - [TEST_CASE][FAILED] - Test Cases/test admin role login: Test Cases/test admin role login FAILED because (of) Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 23:53:17 - [TEST_SUITE][FAILED] - test all: Test Cases/test admin role login FAILED because (of) Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-10 23:53:17 - [TEST_SUITE][FAILED] - test all: Test Cases/test admin role login FAILED because (of) Unable to click on object 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin product and transaction page/Page_ProjectBackend/a_Products' located by 'By.xpath: //a[@href = '/products' and (text() = 'Products
+          ' or . = 'Products
+          ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
