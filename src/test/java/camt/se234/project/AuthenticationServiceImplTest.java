@@ -22,14 +22,14 @@ public class AuthenticationServiceImplTest {
     UserDao userDao;
 
     @Before
-    public void setup(){
+    public void setup() {
         userDao = mock(UserDao.class);
         authenticationService = new AuthenticationServiceImpl();
         authenticationService.setUserDao(userDao);
     }
 
     @Test
-    public void testAuthenticate(){
+    public void testAuthenticate() {
         when(userDao.getUser("Pumipat", "12345")).thenReturn(
                 new User("Pumipat", "12345", "Student"));
         when(userDao.getUser("Ponpol", "password")).thenReturn(
@@ -38,8 +38,7 @@ public class AuthenticationServiceImplTest {
                 is(new User("Pumipat", "12345", "Student")));
         assertThat(authenticationService.authenticate("Ponpol", "password"),
                 is(new User("Ponpol", "password", "Manager")));
-        assertThat(authenticationService.authenticate("Ponpol dolphin", "password"),
-                is(isNull()));
+
     }
 
 
