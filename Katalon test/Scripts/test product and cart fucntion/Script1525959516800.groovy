@@ -33,25 +33,31 @@ WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBa
 WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Garden            The gard_1'), 
     'Garden')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Banana            A good f'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Banana            A good f'), 
+    'Banana')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Orange            Nothing'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Orange            Nothing'), 
+    'Orange')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Papaya            Use for'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Papaya            Use for'), 
+    'Papaya')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Rambutan            An exp'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/div_Rambutan            An exp'), 
+    'Rambutan')
 
 WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/button_add to cart'))
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/div_already added'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/div_already added'), 'already added')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/a_Carts            1'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/a_Carts            1'), 
+    '1')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/td_Rambutan'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/td_Rambutan'), 'Rambutan')
 
 WebUI.setText(findTestObject('user select and change amount of item/Page_ProjectBackend/input_amount'), '5')
 
-WebUI.click(findTestObject('user select and change amount of item/Page_ProjectBackend/p_Total price  100 THB'))
+WebUI.verifyElementText(findTestObject('user select and change amount of item/Page_ProjectBackend/p_Total price  100 THB'), 
+    'Total price 100 THB')
 
 WebUI.closeBrowser()
 
