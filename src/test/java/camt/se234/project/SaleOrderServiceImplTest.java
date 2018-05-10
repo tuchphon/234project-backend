@@ -1,10 +1,11 @@
-package camt.se234.project.service;
+package camt.se234.project;
 
-import Exceptions.NoDataException;
+
 import camt.se234.project.dao.OrderDao;
 import camt.se234.project.entity.Product;
 import camt.se234.project.entity.SaleOrder;
 import camt.se234.project.entity.SaleTransaction;
+import camt.se234.project.service.SaleOrderServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -32,49 +33,34 @@ public class SaleOrderServiceImplTest {
     public void testGetSaleOrdersTest(){
         List<SaleOrder> mockSaleOrders = new ArrayList<>();
         List<SaleTransaction> transactions = new ArrayList<>();
-        mockSaleOrders.add(new SaleOrder("S001",transactions));
-        mockSaleOrders.add(new SaleOrder("S002",transactions));
+        mockSaleOrders.add(new SaleOrder("Sale01",transactions));
+        mockSaleOrders.add(new SaleOrder("Sale02",transactions));
         when(orderDao.getOrders()).thenReturn(mockSaleOrders);
-        assertThat(saleOrderService.getSaleOrders(),hasItem(new SaleOrder("S001",transactions)));
-        assertThat(saleOrderService.getSaleOrders(),hasItems(new SaleOrder("S001",transactions),
-                new SaleOrder("S002",transactions)));
+        assertThat(saleOrderService.getSaleOrders(),hasItem(new SaleOrder("Sale01",transactions)));
+        assertThat(saleOrderService.getSaleOrders(),hasItems(new SaleOrder("Sale01",transactions),
+                new SaleOrder("Sale02",transactions)));
     }
 
-    @Test (expected = AssertionError.class)
-    public void testGetSaleOrdersTestNoData(){
-        List<SaleOrder> mockSaleOrders = new ArrayList<>();
-        when(orderDao.getOrders()).thenReturn(mockSaleOrders);
-        assertThat(saleOrderService.getSaleOrders(),is(isNull()));
-    }
+
 
     @Test
     public void testGetAverageSaleOrderPrice(){
         List<SaleOrder> mockSaleOrders = new ArrayList<>();
         List<SaleTransaction> transactions = new ArrayList<>();
         List<SaleTransaction> transactions2 = new ArrayList<>();
-        transactions.add(new SaleTransaction("T001",new SaleOrder("S001",transactions),
-                new Product("D001","Milk","Drink","image/",2500),12));
-        mockSaleOrders.add(new SaleOrder("S001",transactions));
+        transactions.add(new SaleTransaction("Tran01",new SaleOrder("Sale01",transactions),
+                new Product("Eat01","Stake","Eat","image/",2500),12));
+        mockSaleOrders.add(new SaleOrder("Sale01",transactions));
         when(orderDao.getOrders()).thenReturn(mockSaleOrders);
-        // 2500*12= 30000
         assertThat(saleOrderService.getAverageSaleOrderPrice(),is(closeTo(30000,0.01)));
-        transactions.add(new SaleTransaction("T002",new SaleOrder("S001",transactions),
-                new Product("D002","Coke","Drink","image/",1500),2));
-        // 30000 + 1500*2 = 33000
+        transactions.add(new SaleTransaction("Tran02",new SaleOrder("Sale01",transactions),
+                new Product("Eat02","Stake","Eat","image/",1500),2));
         assertThat(saleOrderService.getAverageSaleOrderPrice(),is(closeTo(33000,0.01)));
-        transactions2.add(new SaleTransaction("T002",new SaleOrder("S002",transactions),
-                new Product("D002","Coke","Drink","image/",1500),20));
-        mockSaleOrders.add(new SaleOrder("S002",transactions2));
-        // (33000 + 1500*20)/2 = 31500
+        transactions2.add(new SaleTransaction("Tran02",new SaleOrder("Sale02",transactions),
+                new Product("Eat02","Stake","Eat","image/",1500),20));
+        mockSaleOrders.add(new SaleOrder("Sale01",transactions2));
         assertThat(saleOrderService.getAverageSaleOrderPrice(),is(closeTo(31500,0.01)));
     }
 
-    @Test (expected = NoDataException.class)
-    public void testGetAverageSaleOrderPriceNoData(){
-        List<SaleOrder> mockSaleOrders = new ArrayList<>();
-        List<SaleTransaction> transactions = new ArrayList<>();
-        List<SaleTransaction> transactions2 = new ArrayList<>();
-        when(orderDao.getOrders()).thenReturn(mockSaleOrders);
-       assertThat(saleOrderService.getAverageSaleOrderPrice(),is(isNull()));
-    }
+
 }

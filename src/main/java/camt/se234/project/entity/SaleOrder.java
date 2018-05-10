@@ -21,6 +21,12 @@ public class SaleOrder {
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
     String saleOrderId;
+
+    public SaleOrder(String saleOrderId, List<SaleTransaction> transactions){
+        this.saleOrderId = saleOrderId;
+        this.transactions = transactions;
+    }
+
     @Builder.Default
     @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     List<SaleTransaction> transactions = new ArrayList<>();
