@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: tuchphon/234project-backend
+    ports:
+      - "7071:8080"
+  frontend:
+    image: dto80/234project-forntend:latest
+    ports:
+      - "7072:80"
+
